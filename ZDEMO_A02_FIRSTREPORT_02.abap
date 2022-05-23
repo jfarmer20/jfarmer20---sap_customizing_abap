@@ -7,8 +7,8 @@ TYPES: BEGIN OF ty_matdata,
    matunit type c LENGTH 3,
   END OF ty_matdata.
 
-DATA ls_matdata TYPE ty_matdata. 
-DATA lt_matdata TYPE ty_matdata.
+DATA ls_matdata TYPE zmy_matdata. 
+DATA lt_matdata TYPE TABLE OF zymy_matdata.
 
 FIELD-SYMBOLS <fs_matdata> TYPE any. 
 

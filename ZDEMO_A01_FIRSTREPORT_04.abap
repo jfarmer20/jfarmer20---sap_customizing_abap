@@ -23,6 +23,8 @@ NEW-LINE.
 
 write ls_matdata.
 
+NEW-LINE.
+
 * Tabelle füllen  
 do 5 times.
   ls_matdata-matnr = sy-index.  " sy-index ... Systemvariable, enthält Laufvariable

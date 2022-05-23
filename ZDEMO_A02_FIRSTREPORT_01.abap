@@ -5,10 +5,10 @@ TYPES: BEGIN OF ty_matdata,
    matnr type c LENGTH 15,
    mattext type c LENGTH 30,
    matunit type c LENGTH 3,
-  END OF ty_matdata.
+END OF ty_matdata.
 
-DATA ls_matdata TYPE ty_matdata. 
-DATA lt_matdata TYPE ty_matdata.
+DATA ls_matdata TYPE zmy_matdata. 
+DATA lt_matdata TYPE TABLE OF zymy_matdata.
 
 DO 5 TIMES.
   ls_matdata-matnr = sy-index.

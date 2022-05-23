@@ -4,9 +4,10 @@ Jedes Unternehmen braucht aus handels- und steuerrechtlicher Sicht eine Buchhalt
 
 Will man SAP im Unternehmen einführen stellen sich folgende Fragen:  
 1. Welche Module (FI, MM, SD, PS, ...)? 
-2. Wie bilde ich meine Unternehmensstruktur im System ab (Buchungskreise, Werke, Lager, ...)?  
-3. SAP ist Standardsoftware für Stahlkocher (voestalpine) als auch Handelsunternehmen (Spar, blue tomato). Unter Customizing im engeren Sinn versteht man das Ausblenden von Eingabefeldern die nicht gebraucht werden. 
-4. Customizing ist aber auch die Erweiterung um kundenspezifische "Reports" und diese Erweiterungen programmiert man in ABAP.  
+2. Cloud- oder On-Premise-Lösung?  
+3. Wie bilde ich meine Unternehmensstruktur im System ab (Buchungskreise, Werke, Lager, ...)?  
+4. SAP ist Standardsoftware für Stahlkocher (voestalpine) als auch Handelsunternehmen (Spar, blue tomato). Unter Customizing versteht man unter anderem das Ausblenden von Eingabefeldern die nicht gebraucht werden. 
+5. Customizing ist auch die Erweiterung um kundenspezifische "Reports" und diese Erweiterungen programmiert man in ABAP.  
 
 ## ABAP  
 
@@ -16,7 +17,7 @@ ABAP ... Advanced Business Application Programming
 Ressourcen:  
 - <https://openbook.rheinwerk-verlag.de/einstieg_in_abap/index.html>
 - Run ABAP code online: <https://abapeditor.com/> (funktioniert leider nicht)  
-- VS Code Syntax Highlighting for ABAP Extension: <https://marketplace.visualstudio.com/items?itemName=larshp.vscode-abap>
+- VS Code Extension: Syntax Highlighting for ABAP: <https://marketplace.visualstudio.com/items?itemName=larshp.vscode-abap>
 - Udemy Kurs: <https://www.udemy.com/course/sap-abap-programmierung-auf-einen-blick-abap-report-sap-lernen-kurs/>
 
 Entwicklungsumgebung (im SAP GUI): SAP Menü > Werkzeuge > ABAP Workbench > Entwicklung >  
@@ -60,7 +61,7 @@ Beispielobjekt:
 - Short Description: Material Number  
 - Domain MATNR
 
-Jedes Objekt hat auch einen Verwendungsnachweis: Übersicht wo das Objekt verwendet wird.  
+Jedes Objekt hat auch einen Verwendungsnachweis = Übersicht wo das Objekt verwendet wird.  
 
 ## Glossar  
 
